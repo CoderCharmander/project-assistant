@@ -1,0 +1,18 @@
+conditionalEvents:
+- condition: scene.slots.status == "FINAL"
+  handler:
+    webhookHandler: play_track
+intentEvents:
+- intent: actions.intent.MEDIA_STATUS_FINISHED
+  transitionToScene: ExerciseRequest
+slots:
+- commitBehavior:
+    writeSessionParam: exercise
+  name: exercise
+  type:
+    name: Exercise
+- commitBehavior:
+    writeSessionParam: page
+  name: page
+  type:
+    name: actions.type.Number

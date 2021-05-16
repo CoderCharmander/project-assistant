@@ -1,0 +1,21 @@
+category: EDUCATION_AND_REFERENCE
+defaultLocale: en
+localizedSettings:
+#  developerEmail: YOUR EMAIL HERE
+#  developerName: YOUR NAME HERE
+  displayName: Project Assistant
+  fullDescription: Project Assistant can play audio tracks from exercises in the Project
+    English books. Source code is available at https://github.com/CoderCharmander/project-assistant
+#  privacyPolicyUrl: PRIVACY POLICY URL HERE
+  pronunciation: Project Assistant
+  sampleInvocations:
+  - Talk to Project Assistant
+  shortDescription: Play audio tracks from exercises in the Project series of English
+    books.
+#  smallLogoImage: LOGO IMAGE HERE
+  voice: female_1
+# projectId: PROJECT ID HERE
+surfaceRequirements:
+  minimumRequirements:
+  - capability: AUDIO_OUTPUT
+  - capability: MEDIA_RESPONSE_AUDIO

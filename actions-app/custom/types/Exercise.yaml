@@ -1,0 +1,5 @@
+regularExpression:
+  entities:
+    '[0-9]+[a-zA-Z]?':
+      regularExpressions:
+      - '[0-9]+[a-zA-Z]?'

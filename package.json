@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@assistant/conversation": "^3.6.0",
+    "actions-on-google": "^2.14.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "https": "^1.0.0"
+  },
+  "name": "project-assistant",
+  "version": "1.0.0",
+  "description": "Google Assistant application for playing audio from the Project english books",
+  "main": "index.js",
+  "repository": "https://github.com/CoderCharmander/project-assistant",
+  "author": "András El Koulali",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^15.3.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "start": "nodemon index.ts"
+  }
+}

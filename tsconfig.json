@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES3",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "rootDir": "./",
+        "outDir": "./build",
+        "esModuleInterop": true,
+        "strict": true,
+    }
+}

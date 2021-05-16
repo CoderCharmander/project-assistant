@@ -1,0 +1,8 @@
+handlers:
+- name: greeting
+- name: play_track
+- name: request
+- name: play_again
+httpsEndpoint:
+  baseUrl: https://some-example-url.com/action-webhook
+  endpointApiVersion: 2

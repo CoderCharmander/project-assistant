@@ -1,0 +1,18 @@
+intentEvents:
+- intent: play_track
+  transitionToScene: PlayAudio
+- handler:
+    webhookHandler: play_again
+  intent: play_again
+- handler:
+    staticPrompt:
+      candidates:
+      - promptResponse:
+          firstSimple:
+            variants:
+            - speech: Goodbye.
+  intent: actions.intent.CANCEL
+- intent: actions.intent.NO_INPUT_FINAL
+  transitionToScene: actions.scene.END_CONVERSATION
+onEnter:
+  webhookHandler: request

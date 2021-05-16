@@ -1,0 +1,20 @@
+parameters:
+- name: page
+  type:
+    name: actions.type.Number
+- name: exercise
+  type:
+    name: Exercise
+trainingPhrases:
+- Play page ($page '78' auto=false) exercise ($exercise '2B' auto=false)
+- Start page ($page '27' auto=false) exercise ($exercise '5' auto=false)
+- Start the audio track of ($page '43' auto=false)/($exercise '4B' auto=false)
+- Listen to ($page '24' auto=false)/($exercise '9' auto=false)
+- Listen to ($page '24' auto=false)/($exercise '9C' auto=false)
+- play ($page '64' auto=false)/($exercise '3B' auto=false)
+- Please play page ($page '64' auto=false) ($exercise '3B' auto=false)'s track
+- Get me the track of page ($page '64' auto=false) exercise ($exercise '3A' auto=false)
+- Play the audio track of exercise ($exercise '4' auto=true) on page ($page '10' auto=false)
+- Listen to exercise ($exercise '3C' auto=true) on page ($page '32' auto=false)
+- Listen to page ($page '81' auto=false) exercise ($exercise '1' auto=false)
+- Play exercise ($exercise '4B' auto=true) on page ($page '47' auto=false)
